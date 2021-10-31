@@ -1,0 +1,319 @@
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://www.recipetineats.com/#organization",
+                "name": "RecipeTin Eats",
+                "url": "https://www.recipetineats.com/",
+                "sameAs": [
+                    "https://www.facebook.com/RecipeTinEats",
+                    "http://instagram.com/recipe_tin",
+                    "https://www.linkedin.com/in/nagi-maehashi-9779648b",
+                    "https://www.youtube.com/c/recipetineats",
+                    "http://www.pinterest.com/recipetin/"
+                ],
+                "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://www.recipetineats.com/#logo",
+                    "inLanguage": "en-US",
+                    "url": "https://www.recipetineats.com/wp-content/uploads/2019/04/RecipeTinEats_logo_for_Knowledge_Graph_card.png",
+                    "contentUrl": "https://www.recipetineats.com/wp-content/uploads/2019/04/RecipeTinEats_logo_for_Knowledge_Graph_card.png",
+                    "width": 2591,
+                    "height": 347,
+                    "caption": "RecipeTin Eats"
+                },
+                "image": {
+                    "@id": "https://www.recipetineats.com/#logo"
+                }
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://www.recipetineats.com/#website",
+                "url": "https://www.recipetineats.com/",
+                "name": "RecipeTin Eats",
+                "description": "Fast Prep, Big Flavours",
+                "publisher": {
+                    "@id": "https://www.recipetineats.com/#organization"
+                },
+                "potentialAction": [
+                    {
+                        "@type": "SearchAction",
+                        "target": {
+                            "@type": "EntryPoint",
+                            "urlTemplate": "https://www.recipetineats.com/?s={search_term_string}"
+                        },
+                        "query-input": "required name=search_term_string"
+                    }
+                ],
+                "inLanguage": "en-US"
+            },
+            {
+                "@type": "ImageObject",
+                "@id": "https://www.recipetineats.com/red-velvet-cake/#primaryimage",
+                "inLanguage": "en-US",
+                "url": "https://www.recipetineats.com/wp-content/uploads/2016/06/Red-Velvet-Layer-Cake_4.jpg",
+                "contentUrl": "https://www.recipetineats.com/wp-content/uploads/2016/06/Red-Velvet-Layer-Cake_4.jpg",
+                "width": 902,
+                "height": 1350,
+                "caption": "Made this for a birthday party, everyone was floored by how \"velvety\" and soft the sponge is. And the frosting is just perfect! Easy to follow steps, concisely written!"
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://www.recipetineats.com/red-velvet-cake/#webpage",
+                "url": "https://www.recipetineats.com/red-velvet-cake/",
+                "name": "Red Velvet Cake | RecipeTin Eats",
+                "isPartOf": {
+                    "@id": "https://www.recipetineats.com/#website"
+                },
+                "primaryImageOfPage": {
+                    "@id": "https://www.recipetineats.com/red-velvet-cake/#primaryimage"
+                },
+                "datePublished": "2016-06-10T09:30:00+00:00",
+                "dateModified": "2021-09-21T06:26:26+00:00",
+                "description": "This is the BEST Red Velvet Cake recipe, and with my tips, it is so easy to make. Bright red, perfect, velvety sponge with fluffy cream cheese frosting.",
+                "breadcrumb": {
+                    "@id": "https://www.recipetineats.com/red-velvet-cake/#breadcrumb"
+                },
+                "inLanguage": "en-US",
+                "potentialAction": [
+                    {
+                        "@type": "ReadAction",
+                        "target": [
+                            "https://www.recipetineats.com/red-velvet-cake/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": "https://www.recipetineats.com/red-velvet-cake/#breadcrumb",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://www.recipetineats.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Sweet",
+                        "item": "https://www.recipetineats.com/category/dessert-recipes/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Red Velvet Cake"
+                    }
+                ]
+            },
+            {
+                "@type": "Article",
+                "@id": "https://www.recipetineats.com/red-velvet-cake/#article",
+                "isPartOf": {
+                    "@id": "https://www.recipetineats.com/red-velvet-cake/#webpage"
+                },
+                "author": {
+                    "@id": "https://www.recipetineats.com/#/schema/person/1d495a057e0419b552333c8526d827a9"
+                },
+                "headline": "Red Velvet Cake",
+                "datePublished": "2016-06-10T09:30:00+00:00",
+                "dateModified": "2021-09-21T06:26:26+00:00",
+                "wordCount": 2106,
+                "commentCount": 1448,
+                "publisher": {
+                    "@id": "https://www.recipetineats.com/#organization"
+                },
+                "image": {
+                    "@id": "https://www.recipetineats.com/red-velvet-cake/#primaryimage"
+                },
+                "thumbnailUrl": "https://www.recipetineats.com/wp-content/uploads/2016/06/Red-Velvet-Layer-Cake_4.jpg",
+                "articleSection": [
+                    "All Thanksgiving Recipes",
+                    "Baking Recipes",
+                    "Cake recipes",
+                    "Christmas Desserts",
+                    "Easter",
+                    "Easter Baking &amp; Desserts",
+                    "Sweet",
+                    "Thanksgiving",
+                    "Thanksgiving Desserts",
+                    "Thanksgiving Recipes"
+                ],
+                "inLanguage": "en-US",
+                "potentialAction": [
+                    {
+                        "@type": "CommentAction",
+                        "name": "Comment",
+                        "target": [
+                            "https://www.recipetineats.com/red-velvet-cake/#respond"
+                        ]
+                    }
+                ]
+            },
+            {
+                "@type": "Person",
+                "@id": "https://www.recipetineats.com/#/schema/person/1d495a057e0419b552333c8526d827a9",
+                "name": "Nagi",
+                "image": {
+                    "@type": "ImageObject",
+                    "@id": "https://www.recipetineats.com/#personlogo",
+                    "inLanguage": "en-US",
+                    "url": "https://secure.gravatar.com/avatar/400004f5258d5b43d30deed3aa6e9566?s=96&d=https%3A%2F%2Fwww.recipetineats.com%2Fwp-content%2Fthemes%2Fonce-coupled-recipe-tin-eats%2Fassets%2Fimages%2Favatar-guest-temp-cache-bust-duplicate.png&r=g",
+                    "contentUrl": "https://secure.gravatar.com/avatar/400004f5258d5b43d30deed3aa6e9566?s=96&d=https%3A%2F%2Fwww.recipetineats.com%2Fwp-content%2Fthemes%2Fonce-coupled-recipe-tin-eats%2Fassets%2Fimages%2Favatar-guest-temp-cache-bust-duplicate.png&r=g",
+                    "caption": "Nagi"
+                },
+                "description": "I believe you can make great food with everyday ingredients even if you\u2019re short on time and cost conscious. You just need to cook clever and get creative!",
+                "sameAs": [
+                    "http:////www.recipetineats.com/about-me/"
+                ]
+            },
+            {
+                "@context": "http://schema.org/",
+                "@type": "Recipe",
+                "name": "Red Velvet Cake",
+                "author": {
+                    "@type": "Person",
+                    "name": "Nagi | RecipeTin Eats"
+                },
+                "description": "Recipe VIDEO above. The classic, iconic Red Velvet Cake! The sponge is soft and velvety, true to it&#39;s name, with a buttery flavour, moist with a hint of chocolate, vanilla and tang from buttermilk. MEASURES:\u00a0Don&#39;t switch between weights/ml and cups in the recipe, read note 11. \u00a0UK: Please read notes 7 and 9. After Red Velvet Cupcakes? Here&#39;s the recipe!",
+                "datePublished": "2016-06-10T20:30:00+00:00",
+                "image": [
+                    "https://www.recipetineats.com/wp-content/uploads/2016/06/Red-Velvet-Layer-Cake_4.jpg",
+                    "https://www.recipetineats.com/wp-content/uploads/2016/06/Red-Velvet-Layer-Cake_4.jpg?w=500&h=500&crop=1",
+                    "https://www.recipetineats.com/wp-content/uploads/2016/06/Red-Velvet-Layer-Cake_4.jpg?w=500&h=375&crop=1",
+                    "https://www.recipetineats.com/wp-content/uploads/2016/06/Red-Velvet-Layer-Cake_4.jpg?w=480&h=270&crop=1"
+                ],
+                "recipeYield": [
+                    "10",
+                    "10 -12"
+                ],
+                "prepTime": "PT30M",
+                "cookTime": "PT25M",
+                "totalTime": "PT55M",
+                "recipeIngredient": [
+                    "2 2/3 cups (400 g)  plain cake flour ((Note 1))",
+                    "2 tbsp (10 g)  cocoa powder (, unsweetened)",
+                    "1 tsp (5 g)  baking soda / bi-carb soda (, NOT baking powder (Note 2))",
+                    "Pinch of salt",
+                    "1/2 cup (115 g)  unsalted butter (, softened (1 US stick))",
+                    "1 1/2 cups (330 g)  caster / superfine white sugar  ((Note 3a))",
+                    "2  eggs (, at room temperature (around 2 oz / 60g each))",
+                    "1 cup (250ml)  vegetable oil",
+                    "1 tsp white vinegar",
+                    "2 tsp vanilla extract  ((or essence))",
+                    "1 cup (250 ml)  buttermilk (, at room temperature (Note 4))",
+                    "2 1/2 tbsp red food colouring liquid  ((UK: use Gel, Note 7))",
+                    "14 oz (400 g)  Philadelphia Cream Cheese, block  (, softened but not too soft (UK see Note 9))",
+                    "1/2 cup (115 g)  unsalted butter (, softened (but not too soft))",
+                    "1 1/2 tsp vanilla extract",
+                    "4 cups (450 g)  soft icing sugar / powdered sugar (sifted (Note 3b))"
+                ],
+                "recipeInstructions": [
+                    {
+                        "@type": "HowToStep",
+                        "text": "Preheat oven to 180C/350F (all oven types). Butter 2 x 21cm / 8\" round cake pans (sides and base) and dust with cocoa powder.",
+                        "name": "Preheat oven to 180C/350F (all oven types). Butter 2 x 21cm / 8\" round cake pans (sides and base) and dust with cocoa powder.",
+                        "url": "https://www.recipetineats.com/red-velvet-cake/#wprm-recipe-20356-step-0-0"
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "text": "Sift the Dry Ingredients and whisk to combine in a bowl.",
+                        "name": "Sift the Dry Ingredients and whisk to combine in a bowl.",
+                        "url": "https://www.recipetineats.com/red-velvet-cake/#wprm-recipe-20356-step-0-1"
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "text": "Place butter and sugar in a bowl and beat with electric beater or in stand mixer until smooth and well combined (use paddle attachment if using stand mixer).",
+                        "name": "Place butter and sugar in a bowl and beat with electric beater or in stand mixer until smooth and well combined (use paddle attachment if using stand mixer).",
+                        "url": "https://www.recipetineats.com/red-velvet-cake/#wprm-recipe-20356-step-0-2"
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "text": "Add eggs, one at a time, beating in between to combine. At first it will look curdle - keep beating until it's smooth.",
+                        "name": "Add eggs, one at a time, beating in between to combine. At first it will look curdle - keep beating until it's smooth.",
+                        "url": "https://www.recipetineats.com/red-velvet-cake/#wprm-recipe-20356-step-0-3"
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "text": "Add vegetable oil, vinegar, vanilla, buttermilk and red food colouring. Beat until combined and smooth (Note 5).",
+                        "name": "Add vegetable oil, vinegar, vanilla, buttermilk and red food colouring. Beat until combined and smooth (Note 5).",
+                        "url": "https://www.recipetineats.com/red-velvet-cake/#wprm-recipe-20356-step-0-4"
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "text": "Add Dry Ingredients. Beat until just combined - some small lumps is ok, that's better than over mixing.",
+                        "name": "Add Dry Ingredients. Beat until just combined - some small lumps is ok, that's better than over mixing.",
+                        "url": "https://www.recipetineats.com/red-velvet-cake/#wprm-recipe-20356-step-0-5"
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "text": "Divide batter between cake pans. Bake for 25 - 30 minutes on the same shelf, or until a toothpick inserted into the centre comes out clean. (Note 6)",
+                        "name": "Divide batter between cake pans. Bake for 25 - 30 minutes on the same shelf, or until a toothpick inserted into the centre comes out clean. (Note 6)",
+                        "url": "https://www.recipetineats.com/red-velvet-cake/#wprm-recipe-20356-step-0-6"
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "text": "Rest for 10 minutes in the pan then turn out onto a cooling rack and allow to cool.",
+                        "name": "Rest for 10 minutes in the pan then turn out onto a cooling rack and allow to cool.",
+                        "url": "https://www.recipetineats.com/red-velvet-cake/#wprm-recipe-20356-step-0-7"
+                    },
+                    {
+                        "@type": "HowToSection",
+                        "name": "Frosting",
+                        "itemListElement": [
+                            {
+                                "@type": "HowToStep",
+                                "text": "Beat together cream cheese, butter and vanilla for 3 minutes (this makes it really smooth and changes from yellow to almost white). Add icing sugar and beat for 2 minutes or until frosting is light and fluffy to your taste. If your frosting seems too runny (depends on quality of cream cheese/ if the cream cheese was too soft), just add more icing sugar.",
+                                "name": "Beat together cream cheese, butter and vanilla for 3 minutes (this makes it really smooth and changes from yellow to almost white). Add icing sugar and beat for 2 minutes or until frosting is light and fluffy to your taste. If your frosting seems too runny (depends on quality of cream cheese/ if the cream cheese was too soft), just add more icing sugar.",
+                                "url": "https://www.recipetineats.com/red-velvet-cake/#wprm-recipe-20356-step-1-0"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "HowToSection",
+                        "name": "Frost Cake",
+                        "itemListElement": [
+                            {
+                                "@type": "HowToStep",
+                                "text": "Cut the top off the cake using a serrated knife (to make the layers neat).",
+                                "name": "Cut the top off the cake using a serrated knife (to make the layers neat).",
+                                "url": "https://www.recipetineats.com/red-velvet-cake/#wprm-recipe-20356-step-2-0"
+                            },
+                            {
+                                "@type": "HowToStep",
+                                "text": "Spread one cake with 1 1/2 cups of frosting. Top with the other cake. Spread top and sides with remaining frosting.",
+                                "name": "Spread one cake with 1 1/2 cups of frosting. Top with the other cake. Spread top and sides with remaining frosting.",
+                                "url": "https://www.recipetineats.com/red-velvet-cake/#wprm-recipe-20356-step-2-1"
+                            },
+                            {
+                                "@type": "HowToStep",
+                                "text": "Optional: Crumble offcuts and use to decorate the top rim and base of the cake.",
+                                "name": "Optional: Crumble offcuts and use to decorate the top rim and base of the cake.",
+                                "url": "https://www.recipetineats.com/red-velvet-cake/#wprm-recipe-20356-step-2-2"
+                            }
+                        ]
+                    }
+                ],
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.96",
+                    "ratingCount": "255"
+                },
+                "recipeCategory": [
+                    "Sweet Baking"
+                ],
+                "recipeCuisine": [
+                    "American",
+                    "Western"
+                ],
+                "keywords": "Red Velvet Cake",
+                "@id": "https://www.recipetineats.com/red-velvet-cake/#recipe",
+                "isPartOf": {
+                    "@id": "https://www.recipetineats.com/red-velvet-cake/#article"
+                },
+                "mainEntityOfPage": "https://www.recipetineats.com/red-velvet-cake/#webpage"
+            }
+        ]
+    }

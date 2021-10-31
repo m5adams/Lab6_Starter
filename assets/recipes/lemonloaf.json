@@ -1,0 +1,292 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "https://platedcravings.com/#organization",
+            "name": "Plated Cravings",
+            "url": "https://platedcravings.com/",
+            "sameAs": [
+                "https://www.facebook.com/platedcravings/",
+                "https://instagram.com/platedcravings/",
+                "https://pinterest.com/platedgravings/",
+                "https://twitter.com/platedcravings"
+            ],
+            "logo": {
+                "@type": "ImageObject",
+                "@id": "https://platedcravings.com/#logo",
+                "inLanguage": "en-US",
+                "url": "https://platedcravings.com/wp-content/uploads/2020/09/Logo-PC-Square.jpg",
+                "contentUrl": "https://platedcravings.com/wp-content/uploads/2020/09/Logo-PC-Square.jpg",
+                "width": 300,
+                "height": 300,
+                "caption": "Plated Cravings"
+            },
+            "image": {
+                "@id": "https://platedcravings.com/#logo"
+            }
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://platedcravings.com/#website",
+            "url": "https://platedcravings.com/",
+            "name": "Plated Cravings",
+            "description": "Easy recipes for all the food you love",
+            "publisher": {
+                "@id": "https://platedcravings.com/#organization"
+            },
+            "potentialAction": [
+                {
+                    "@type": "SearchAction",
+                    "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "https://platedcravings.com/?s={search_term_string}"
+                    },
+                    "query-input": "required name=search_term_string"
+                }
+            ],
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "ImageObject",
+            "@id": "https://platedcravings.com/moist-lemon-cake-recipe/#primaryimage",
+            "inLanguage": "en-US",
+            "url": "https://platedcravings.com/wp-content/uploads/2017/08/Moist-Lemon-Cake-Recipe-Plated-Cravings-3.jpg",
+            "contentUrl": "https://platedcravings.com/wp-content/uploads/2017/08/Moist-Lemon-Cake-Recipe-Plated-Cravings-3.jpg",
+            "width": 1280,
+            "height": 1707,
+            "caption": "This moist Lemon Cake Recipe is fluffy, tangy and so easy to make from scratch! Every bite of this supremely moist pound cake is bursting with lemon flavor. If you like the Starbucks Lemon Loaf then you'll love this homemade lemon pound cake!"
+        },
+        {
+            "@type": "WebPage",
+            "@id": "https://platedcravings.com/moist-lemon-cake-recipe/#webpage",
+            "url": "https://platedcravings.com/moist-lemon-cake-recipe/",
+            "name": "Moist Lemon Cake Recipe {Homemade Starbucks Lemon Loaf}",
+            "isPartOf": {
+                "@id": "https://platedcravings.com/#website"
+            },
+            "primaryImageOfPage": {
+                "@id": "https://platedcravings.com/moist-lemon-cake-recipe/#primaryimage"
+            },
+            "datePublished": "2017-08-25T08:16:11+00:00",
+            "dateModified": "2018-11-08T18:22:10+00:00",
+            "description": "This moist Lemon Cake Recipe is fluffy, tangy and so easy to make from scratch! Every bite of this supremely moist pound cake is bursting with lemon flavor.",
+            "breadcrumb": {
+                "@id": "https://platedcravings.com/moist-lemon-cake-recipe/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+                {
+                    "@type": "ReadAction",
+                    "target": [
+                        "https://platedcravings.com/moist-lemon-cake-recipe/"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": "https://platedcravings.com/moist-lemon-cake-recipe/#breadcrumb",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://platedcravings.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Cakes &amp; Cupcakes",
+                    "item": "https://platedcravings.com/category/cakes-cupcakes/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Moist Lemon Cake Recipe"
+                }
+            ]
+        },
+        {
+            "@type": "Article",
+            "@id": "https://platedcravings.com/moist-lemon-cake-recipe/#article",
+            "isPartOf": {
+                "@id": "https://platedcravings.com/moist-lemon-cake-recipe/#webpage"
+            },
+            "author": {
+                "@id": "https://platedcravings.com/#/schema/person/0a5662b157b1e5cfce44311cdc321f58"
+            },
+            "headline": "Moist Lemon Cake Recipe",
+            "datePublished": "2017-08-25T08:16:11+00:00",
+            "dateModified": "2018-11-08T18:22:10+00:00",
+            "wordCount": 1014,
+            "commentCount": 630,
+            "publisher": {
+                "@id": "https://platedcravings.com/#organization"
+            },
+            "image": {
+                "@id": "https://platedcravings.com/moist-lemon-cake-recipe/#primaryimage"
+            },
+            "thumbnailUrl": "https://platedcravings.com/wp-content/uploads/2017/08/Moist-Lemon-Cake-Recipe-Plated-Cravings-3.jpg",
+            "keywords": [
+                "buttermilk",
+                "lemon",
+                "powdered sugar"
+            ],
+            "articleSection": [
+                "Cakes &amp; Cupcakes"
+            ],
+            "inLanguage": "en-US",
+            "potentialAction": [
+                {
+                    "@type": "CommentAction",
+                    "name": "Comment",
+                    "target": [
+                        "https://platedcravings.com/moist-lemon-cake-recipe/#respond"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "Person",
+            "@id": "https://platedcravings.com/#/schema/person/0a5662b157b1e5cfce44311cdc321f58",
+            "name": "Julia Foerster",
+            "description": "Hello! I'm Julia. I love good food, baking, traveling and I never skip dessert!",
+            "sameAs": [
+                "https://platedcravings.com/about/",
+                "https://www.facebook.com/platedcravings/",
+                "https://www.instagram.com/platedcravings/",
+                "https://www.pinterest.com/platedcravings/",
+                "https://twitter.com/platedcravings"
+            ],
+            "url": "https://platedcravings.com/author/jfoers/"
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Recipe",
+            "name": "Moist Lemon Cake Recipe",
+            "author": {
+                "@type": "Person",
+                "name": "Julia Foerster"
+            },
+            "description": "This moist Lemon Cake Recipe is fluffy, tangy and so easy to make from scratch! Every bite of this supremely moist pound cake is bursting with lemon flavor. If you like the Starbucks Lemon Loaf then you'll love this homemade lemon pound cake!",
+            "datePublished": "2017-08-25T10:16:11+00:00",
+            "image": [
+                "https://platedcravings.com/wp-content/uploads/2017/08/Moist-Lemon-Cake-Recipe-Plated-Cravings-2.jpg",
+                "https://platedcravings.com/wp-content/uploads/2017/08/Moist-Lemon-Cake-Recipe-Plated-Cravings-2-500x500.jpg",
+                "https://platedcravings.com/wp-content/uploads/2017/08/Moist-Lemon-Cake-Recipe-Plated-Cravings-2-500x375.jpg",
+                "https://platedcravings.com/wp-content/uploads/2017/08/Moist-Lemon-Cake-Recipe-Plated-Cravings-2-480x270.jpg"
+            ],
+            "video": {
+                "name": "Lemon Cake Recipe",
+                "description": "This moist Lemon Cake Recipe is fluffy, tangy and so easy to make from scratch! Every bite of this supremely moist pound cake is bursting with fresh lemon flavor and the easy lemon glaze on top will have you hooked after just one bite.",
+                "thumbnailUrl": "https://content.jwplatform.com/thumbs/KaFj0YgB-720.jpg",
+                "contentUrl": "https://content.jwplatform.com/videos/KaFj0YgB.mp4",
+                "uploadDate": "2018-11-08T18:10:48.000Z",
+                "@type": "VideoObject"
+            },
+            "recipeYield": [
+                "10"
+            ],
+            "prepTime": "PT15M",
+            "cookTime": "PT45M",
+            "totalTime": "PT60M",
+            "recipeIngredient": [
+                "1 1/2 cups all-purpose flour",
+                "1 1/2 tsp baking powder",
+                "1  Tbsp lemon zest",
+                "1/2 tsp salt",
+                "1/2 cup unsalted butter (room temperature )",
+                "1 cup granulated sugar",
+                "2  large eggs (room temperature)",
+                "1 tsp vanilla extract",
+                "2  Tbsp lemon juice (about 1/2 lemon)",
+                "1/2 cup buttermilk (see below for substitution)",
+                "1/4 cup lemon juice (about 1 lemon)",
+                "3 Tbsp powdered sugar",
+                "1 cup powdered sugar (sifted )",
+                "1.5 Tbsp lemon juice",
+                "1 Tbsp milk"
+            ],
+            "recipeInstructions": [
+                {
+                    "@type": "HowToStep",
+                    "text": "Preheat oven to 350\u00b0F (177\u00b0C). Grease a 9x5-inch (or 8x4-inch) loaf pan.",
+                    "name": "Preheat oven to 350\u00b0F (177\u00b0C). Grease a 9x5-inch (or 8x4-inch) loaf pan.",
+                    "url": "https://platedcravings.com/moist-lemon-cake-recipe/#wprm-recipe-5618-step-0-0"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "In a medium bowl combine the flour, baking powder, lemon zest, and salt. Set aside.",
+                    "name": "In a medium bowl combine the flour, baking powder, lemon zest, and salt. Set aside.",
+                    "url": "https://platedcravings.com/moist-lemon-cake-recipe/#wprm-recipe-5618-step-0-1"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "In the bowl of a stand mixer fitted with the paddle attachment (or using an electric mixer), cream the butter and sugar together at medium-high speed until pale and fluffy, about 4-6 minutes. Scrape the sides of the bowl as needed.",
+                    "name": "In the bowl of a stand mixer fitted with the paddle attachment (or using an electric mixer), cream the butter and sugar together at medium-high speed until pale and fluffy, about 4-6 minutes. Scrape the sides of the bowl as needed.",
+                    "url": "https://platedcravings.com/moist-lemon-cake-recipe/#wprm-recipe-5618-step-0-2"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "With the mixer running on low-speed, add the eggs one at a time, then beat in the vanilla extract and lemon juice. Beat on medium-high speed until combined.",
+                    "name": "With the mixer running on low-speed, add the eggs one at a time, then beat in the vanilla extract and lemon juice. Beat on medium-high speed until combined.",
+                    "url": "https://platedcravings.com/moist-lemon-cake-recipe/#wprm-recipe-5618-step-0-3"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "With the mixer on low, add about one-third of the flour mixture and mix until almost combined, then add half the buttermilk and mix until just combined. Repeat with another third of flour mixture and then the last half of the buttermilk, ending with the last third of the flour. Beat until just incorporated.",
+                    "name": "With the mixer on low, add about one-third of the flour mixture and mix until almost combined, then add half the buttermilk and mix until just combined. Repeat with another third of flour mixture and then the last half of the buttermilk, ending with the last third of the flour. Beat until just incorporated.",
+                    "url": "https://platedcravings.com/moist-lemon-cake-recipe/#wprm-recipe-5618-step-0-4"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Scrape the batter into the prepared loaf pan and bake for 45-55 minutes until the cake is golden brown and a toothpick comes out mostly clean with only a couple moist crumbs. Baking times vary, so keep an eye on yours.",
+                    "name": "Scrape the batter into the prepared loaf pan and bake for 45-55 minutes until the cake is golden brown and a toothpick comes out mostly clean with only a couple moist crumbs. Baking times vary, so keep an eye on yours.",
+                    "url": "https://platedcravings.com/moist-lemon-cake-recipe/#wprm-recipe-5618-step-0-5"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "Let the cake cool for about 15 minutes in the pan. Stir together the lemon juice and confectioners\u2019 sugar for the lemon syrup. Carefully invert the loaf pan, and transfer the cake to a cooling rack, then brush the syrup on the cake while it\u2019s still warm. Allow cake to cool completely.",
+                    "name": "Let the cake cool for about 15 minutes in the pan. Stir together the lemon juice and confectioners\u2019 sugar for the lemon syrup. Carefully invert the loaf pan, and transfer the cake to a cooling rack, then brush the syrup on the cake while it\u2019s still warm. Allow cake to cool completely.",
+                    "url": "https://platedcravings.com/moist-lemon-cake-recipe/#wprm-recipe-5618-step-0-6"
+                },
+                {
+                    "@type": "HowToStep",
+                    "text": "When the cake is cooled, combine all the icing ingredients, start with 1 tbsp lemon juice and milk and add the remaining lemon juice as needed. The icing should be thick and not runny. Pour icing over cake and let dry before serving.",
+                    "name": "When the cake is cooled, combine all the icing ingredients, start with 1 tbsp lemon juice and milk and add the remaining lemon juice as needed. The icing should be thick and not runny. Pour icing over cake and let dry before serving.",
+                    "url": "https://platedcravings.com/moist-lemon-cake-recipe/#wprm-recipe-5618-step-0-7"
+                }
+            ],
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.96",
+                "ratingCount": "607"
+            },
+            "recipeCategory": [
+                "Baking"
+            ],
+            "recipeCuisine": [
+                "American"
+            ],
+            "keywords": "Lemon Cake Recipe",
+            "nutrition": {
+                "@type": "NutritionInformation",
+                "calories": "306 kcal",
+                "carbohydrateContent": "49 g",
+                "proteinContent": "3 g",
+                "fatContent": "10 g",
+                "saturatedFatContent": "6 g",
+                "cholesterolContent": "58 mg",
+                "sodiumContent": "144 mg",
+                "sugarContent": "34 g",
+                "servingSize": "1 serving"
+            },
+            "@id": "https://platedcravings.com/moist-lemon-cake-recipe/#recipe",
+            "isPartOf": {
+                "@id": "https://platedcravings.com/moist-lemon-cake-recipe/#article"
+            },
+            "mainEntityOfPage": "https://platedcravings.com/moist-lemon-cake-recipe/#webpage"
+        }
+    ]
+}

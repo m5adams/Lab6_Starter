@@ -3,6 +3,8 @@ class RecipeCard extends HTMLElement {
     // Part 1 Expose - TODO
 
     // You'll want to attach the shadow DOM here
+    super();
+    this.attachShadow({mode: 'open'});
   }
 
   set data(data) {
@@ -98,8 +100,59 @@ class RecipeCard extends HTMLElement {
 
     // Make sure to attach your root element and styles to the shadow DOM you
     // created in the constructor()
-
+    
     // Part 1 Expose - TODO
+    this.shadowRoot.appendChild(styleElem);
+    this.shadowRoot.appendChild(card);
+
+    let recipeImage = document.createElement('img');
+    recipeImage.setAttribute('src',searchForKey(data, 'thumbnailUrl'));
+    recipeImage.setAttribute('alt', searchForKey(data, 'headline'));
+    card.appendChild(recipeImage);
+
+    let recipeTitle = document.createElement('p');
+    recipeTitle.setAttribute('class', 'title');
+    let link = document.createElement('a');
+    link.setAttribute('href',getUrl(data));                                 
+    link.innerHTML = searchForKey(data, 'headline');
+    recipeTitle.appendChild(link);                                                
+    card.appendChild(recipeTitle);
+
+    let organization = document.createElement('p');
+    organization.setAttribute('class','organization');  
+    organization.innerHTML = getOrganization(data);                    
+    card.appendChild(organization); 
+
+    let rating = document.createElement('div');
+    rating.setAttribute('class', 'rating');
+    let ratingImage = document.createElement('img');
+    let ratingValue = searchForKey(data, 'ratingValue');
+    let ratingSpan1 = document.createElement('span');
+    rating.appendChild(ratingSpan1);
+    let ratingSpan2 = document.createElement('span');
+
+    if(ratingValue){
+      ratingSpan1.textContent = ratingValue;
+      ratingImage.setAttribute('src',`assets/images/icons/${Math.round(ratingValue)}-star.svg`);
+      ratingImage.setAttribute('alt', Math.round(ratingValue));
+      rating.appendChild(ratingImage);
+      ratingSpan2.innerHTML = '(' + searchForKey(data, 'ratingCount') + ')';
+      rating.appendChild(ratingSpan2);
+    } else {
+      ratingSpan1.textContent = 'No Reviews';
+      rating.appendChild(ratingSpan1);
+    }
+    card.appendChild(rating);
+   
+    let time = document.createElement('time');
+    time.innerHTML = convertTime(searchForKey(data, 'totalTime'));
+    card.appendChild(time);
+
+    let ingredients = document.createElement('p');
+    ingredients.setAttribute('class','ingredients');
+    ingredients.innerHTML = createIngredientList(searchForKey(data, 'recipeIngredient'));
+    card.appendChild(ingredients);
+
   }
 }
 

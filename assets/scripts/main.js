@@ -5,7 +5,11 @@
 const recipes = [
   'https://introweb.tech/assets/json/ghostCookies.json',
   'https://introweb.tech/assets/json/birthdayCake.json',
-  'https://introweb.tech/assets/json/chocolateChip.json'
+  'https://introweb.tech/assets/json/chocolateChip.json',
+  'assets/recipes/lemonloaf.json',
+  'assets/recipes/redvelvet.json',
+  'assets/recipes/snickerdoodle.json'
+
 ];
 
 // Once all of the recipes that were specified above have been fetched, their
@@ -43,8 +47,26 @@ async function fetchRecipes() {
     // in the recipes folder and fetch them from there. You'll need to add their paths to the recipes array.
 
     // Part 1 Expose - TODO
-  });
+
+for(let i = 0; i < recipes.length; i++ ) {
+  fetch(recipes[i])
+    .then(response => response.json())
+    .then(data => {
+      recipeData[recipes[i]] = data;
+      console.log(data);
+      if(Object.keys(recipeData).length == recipes.length)
+      {
+        resolve(true);
+      }
+    })
+    .catch(error => {
+      reject(false);
+    }); 
 }
+
+});
+}
+
 
 function createRecipeCards() {
   // This function is called for you up above.
@@ -54,6 +76,16 @@ function createRecipeCards() {
   // show any others you've added when the user clicks on the "Show more" button.
 
   // Part 1 Expose - TODO
+
+  let main = document.querySelector("main");
+
+  for (let i = 0; i < 3; i++) {
+    
+      let card = document.createElement("recipe-card");
+      card.data = recipeData[recipes[i]];
+      main.append(card);
+    
+  }
 }
 
 function bindShowMore() {
@@ -65,4 +97,25 @@ function bindShowMore() {
   // in the recipeData object where you stored them/
 
   // Part 2 Explore - TODO
+  let button = document.querySelector('button');
+  let main = document.querySelector("main");
+  let card = document.createElement("recipe-card");
+
+  button.addEventListener('click', (event) =>{
+    if(button.textContent == "Show more"){
+      button.textContent = 'Show less';
+      for (let i = 3; i < recipes.length; i++){
+        card.data = recipeData[recipes[i]];
+        main.append(card);
+      }
+    }
+    else{
+      button.textContent = 'Show more';
+      for(let i = 3; i < 6; i++){
+        card.remove(i);
+      }
+      
+    }
+  });
 }
+  

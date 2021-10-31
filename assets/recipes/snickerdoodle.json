@@ -1,0 +1,267 @@
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://sallysbakingaddiction.com/#organization",
+                "name": "Sallys Baking Addiction",
+                "url": "https://sallysbakingaddiction.com/",
+                "sameAs": [],
+                "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://sallysbakingaddiction.com/#logo",
+                    "inLanguage": "en-US",
+                    "url": "https://cdn.sallysbakingaddiction.com/wp-content/uploads/2018/12/sba-logo.png",
+                    "contentUrl": "https://cdn.sallysbakingaddiction.com/wp-content/uploads/2018/12/sba-logo.png",
+                    "width": 713,
+                    "height": 86,
+                    "caption": "Sallys Baking Addiction"
+                },
+                "image": {
+                    "@id": "https://sallysbakingaddiction.com/#logo"
+                }
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://sallysbakingaddiction.com/#website",
+                "url": "https://sallysbakingaddiction.com/",
+                "name": "Sally&#039;s Baking Addiction",
+                "description": "Trusted Recipes from a Self-Taught Baker",
+                "publisher": {
+                    "@id": "https://sallysbakingaddiction.com/#organization"
+                },
+                "potentialAction": [
+                    {
+                        "@type": "SearchAction",
+                        "target": {
+                            "@type": "EntryPoint",
+                            "urlTemplate": "https://sallysbakingaddiction.com/?s={search_term_string}"
+                        },
+                        "query-input": "required name=search_term_string"
+                    }
+                ],
+                "inLanguage": "en-US"
+            },
+            {
+                "@type": "ImageObject",
+                "@id": "https://sallysbakingaddiction.com/soft-thick-snickerdoodles-in-20-minutes/#primaryimage",
+                "inLanguage": "en-US",
+                "url": "https://cdn.sallysbakingaddiction.com/wp-content/uploads/2013/05/snickerdoodles-recipe-5.jpg",
+                "contentUrl": "https://cdn.sallysbakingaddiction.com/wp-content/uploads/2013/05/snickerdoodles-recipe-5.jpg",
+                "width": 1200,
+                "height": 1800,
+                "caption": "stack of snickerdoodle cookies"
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://sallysbakingaddiction.com/soft-thick-snickerdoodles-in-20-minutes/#webpage",
+                "url": "https://sallysbakingaddiction.com/soft-thick-snickerdoodles-in-20-minutes/",
+                "name": "Soft & Thick Snickerdoodles - Sally&#039;s Baking Addiction",
+                "isPartOf": {
+                    "@id": "https://sallysbakingaddiction.com/#website"
+                },
+                "primaryImageOfPage": {
+                    "@id": "https://sallysbakingaddiction.com/soft-thick-snickerdoodles-in-20-minutes/#primaryimage"
+                },
+                "datePublished": "2013-05-19T23:50:52+00:00",
+                "dateModified": "2021-01-21T15:29:58+00:00",
+                "description": "Here is my reader favorite recipe for soft and thick snickerdoodles. These soft-baked snickerdoodle cookies only take about 25 minutes start to finish.",
+                "breadcrumb": {
+                    "@id": "https://sallysbakingaddiction.com/soft-thick-snickerdoodles-in-20-minutes/#breadcrumb"
+                },
+                "inLanguage": "en-US",
+                "potentialAction": [
+                    {
+                        "@type": "ReadAction",
+                        "target": [
+                            "https://sallysbakingaddiction.com/soft-thick-snickerdoodles-in-20-minutes/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": "https://sallysbakingaddiction.com/soft-thick-snickerdoodles-in-20-minutes/#breadcrumb",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://sallysbakingaddiction.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Posts",
+                        "item": "https://sallysbakingaddiction.com/recent-posts/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Soft &#038; Thick Snickerdoodles"
+                    }
+                ]
+            },
+            {
+                "@type": "Article",
+                "@id": "https://sallysbakingaddiction.com/soft-thick-snickerdoodles-in-20-minutes/#article",
+                "isPartOf": {
+                    "@id": "https://sallysbakingaddiction.com/soft-thick-snickerdoodles-in-20-minutes/#webpage"
+                },
+                "author": {
+                    "@id": "https://sallysbakingaddiction.com/#/schema/person/4a427f44fbea00499872cdd389d3c41b"
+                },
+                "headline": "Soft &#038; Thick Snickerdoodles",
+                "datePublished": "2013-05-19T23:50:52+00:00",
+                "dateModified": "2021-01-21T15:29:58+00:00",
+                "wordCount": 376,
+                "commentCount": 299,
+                "publisher": {
+                    "@id": "https://sallysbakingaddiction.com/#organization"
+                },
+                "image": {
+                    "@id": "https://sallysbakingaddiction.com/soft-thick-snickerdoodles-in-20-minutes/#primaryimage"
+                },
+                "thumbnailUrl": "https://cdn.sallysbakingaddiction.com/wp-content/uploads/2013/05/snickerdoodles-recipe-5.jpg",
+                "keywords": [
+                    "all-purpose flour",
+                    "butter",
+                    "cinnamon",
+                    "cream of tartar",
+                    "eggs",
+                    "granulated sugar",
+                    "snickerdoodles",
+                    "vanilla extract"
+                ],
+                "articleSection": [
+                    "Beginner",
+                    "Christmas",
+                    "Cookies",
+                    "Fall",
+                    "No Chill Cookies"
+                ],
+                "inLanguage": "en-US",
+                "potentialAction": [
+                    {
+                        "@type": "CommentAction",
+                        "name": "Comment",
+                        "target": [
+                            "https://sallysbakingaddiction.com/soft-thick-snickerdoodles-in-20-minutes/#respond"
+                        ]
+                    }
+                ]
+            },
+            {
+                "@type": "Person",
+                "@id": "https://sallysbakingaddiction.com/#/schema/person/4a427f44fbea00499872cdd389d3c41b",
+                "name": "Sally",
+                "url": "https://sallysbakingaddiction.com/author/sally/"
+            },
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Soft &amp; Thick Snickerdoodles",
+                "description": "Here is my reader favorite recipe for soft and thick snickerdoodles. These soft-baked snickerdoodle cookies only require about 30 minutes start to finish! No dough chilling required.",
+                "author": {
+                    "@type": "Person",
+                    "name": "Sally"
+                },
+                "keywords": "snickerdoodles",
+                "image": [
+                    "https://cdn.sallysbakingaddiction.com/wp-content/uploads/2013/05/snickerdoodles-recipe-5-225x225.jpg",
+                    "https://cdn.sallysbakingaddiction.com/wp-content/uploads/2013/05/snickerdoodles-recipe-5-260x195.jpg",
+                    "https://cdn.sallysbakingaddiction.com/wp-content/uploads/2013/05/snickerdoodles-recipe-5-320x180.jpg",
+                    "https://cdn.sallysbakingaddiction.com/wp-content/uploads/2013/05/snickerdoodles-recipe-5.jpg"
+                ],
+                "url": "https://sallysbakingaddiction.com/soft-thick-snickerdoodles-in-20-minutes/",
+                "recipeIngredient": [
+                    "3 cups (375g) all-purpose flour (spoon &amp; leveled)",
+                    "2 teaspoons cream of tartar*",
+                    "1 teaspoon baking soda",
+                    "1 and 1/2 teaspoons ground cinnamon",
+                    "1/2 teaspoon salt",
+                    "1 cup (2 sticks or 230g) unsalted butter, softened to room temperature",
+                    "1 and 1/3 cup (267g) granulated sugar",
+                    "1 large egg + 1 large egg yolk, at room temperature",
+                    "2 teaspoons pure vanilla extract",
+                    "1/3 cup (70g) granulated sugar",
+                    "1 teaspoon ground\u00a0cinnamon"
+                ],
+                "recipeInstructions": [
+                    {
+                        "@type": "HowToStep",
+                        "text": "Preheat oven to 375\u00b0F (190\u00b0C). Line two large cookie sheets with parchment paper or silicone baking mats (always recommended for cookies). Set aside.",
+                        "url": "https://sallysbakingaddiction.com/soft-thick-snickerdoodles-in-20-minutes/#instruction-step-1"
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "text": "Combine the granulated sugar and cinnamon together in a small bowl.",
+                        "name": "Make the topping",
+                        "url": "https://sallysbakingaddiction.com/soft-thick-snickerdoodles-in-20-minutes/#instruction-step-2"
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "text": "Whisk together the flour, cream of tartar, baking soda, cinnamon, and salt together in a medium bowl.",
+                        "name": "Make the cookies:\u00a0",
+                        "url": "https://sallysbakingaddiction.com/soft-thick-snickerdoodles-in-20-minutes/#instruction-step-3"
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "text": "In a large bowl using a hand mixer or stand mixer fitted with a paddle attachment, beat the butter and granulated sugar together on high speed until smooth and creamy, about 2 minutes. Add the egg, egg yolk, and vanilla extract. Beat on medium-high speed until combined. Scrape down the sides and up the bottom of the bowl with a rubber spatula as needed. With the mixer running on low speed, slowly add the dry ingredients to the wet ingredients in 3 different parts. The dough will be thick.",
+                        "url": "https://sallysbakingaddiction.com/soft-thick-snickerdoodles-in-20-minutes/#instruction-step-4"
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "text": "Roll cookie dough into balls, about 1.5 Tablespoons of cookie dough each. I recommend\u00a0this cookie scoop.\u00a0Roll the dough balls in cinnamon-sugar topping. Sprinkle extra cinnamon-sugar on top if desired.\u00a0Arrange 3 inches apart on the baking sheets.",
+                        "url": "https://sallysbakingaddiction.com/soft-thick-snickerdoodles-in-20-minutes/#instruction-step-5"
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "text": "Bake cookies for 10 minutes. The cookies will be very puffy and soft. When they are still very warm, lightly press down on them with the back of a spoon or fork to help flatten them out. Allow cookies to cool on the baking sheet for 10 minutes and transfer to a wire rack to cool completely.",
+                        "url": "https://sallysbakingaddiction.com/soft-thick-snickerdoodles-in-20-minutes/#instruction-step-6"
+                    },
+                    {
+                        "@type": "HowToStep",
+                        "text": "Cookies remain soft &amp; fresh for 7 days in an airtight container at room temperature.",
+                        "url": "https://sallysbakingaddiction.com/soft-thick-snickerdoodles-in-20-minutes/#instruction-step-7"
+                    }
+                ],
+                "prepTime": "PT20M",
+                "cookTime": "PT10M",
+                "totalTime": "PT30M",
+                "recipeYield": [
+                    "24",
+                    "24 cookies"
+                ],
+                "recipeCategory": "Cookies",
+                "cookingMethod": "Baking",
+                "recipeCuisine": "American",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "reviewCount": "124",
+                    "ratingValue": "4.8"
+                },
+                "review": [
+                    {
+                        "@type": "Review",
+                        "reviewRating": {
+                            "@type": "Rating",
+                            "ratingValue": "4"
+                        },
+                        "author": {
+                            "@type": "Person",
+                            "name": "laura"
+                        },
+                        "datePublished": "2021-10-30",
+                        "reviewBody": "I tried these tonight for the first time and followed all the directions stated above. My cookies turned out so soft and delicious only thing I noticed is that they were pale in color. It didn't affect the taste just didn't look toasty like the picture above. What could have caused a lighter color? \r\n\r\nThese are dangerously delicious!"
+                    }
+                ],
+                "datePublished": "2013-05-19",
+                "@id": "https://sallysbakingaddiction.com/soft-thick-snickerdoodles-in-20-minutes/#recipe",
+                "isPartOf": {
+                    "@id": "https://sallysbakingaddiction.com/soft-thick-snickerdoodles-in-20-minutes/#article"
+                },
+                "mainEntityOfPage": "https://sallysbakingaddiction.com/soft-thick-snickerdoodles-in-20-minutes/#webpage"
+            }
+        ]
+    }
